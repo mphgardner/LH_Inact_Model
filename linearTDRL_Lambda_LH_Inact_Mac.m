@@ -19,7 +19,7 @@ function results = linearTDRL_Lambda_LH_Inact_Mac(X,r,varargin)
     %   opto (optional) - sequence of optogenetic perturbations (default: all zeros)
     %   opto_update (optional) - inactivation of the eligibility trace
     %       'none'     : no inactivation (default)
-    %       'gain'     : disrupts the establishment of an eligibity trace (0: no effect)
+    %       'update'     : disrupts the establishment of an eligibity trace (0: no effect)
     %   theta (optional) - the magnitude of the incremental update to alpha 
     %                       according to Mackintosh 1975
     %   Mac_Trials (optional) - states at which to update alpha (default: zero)

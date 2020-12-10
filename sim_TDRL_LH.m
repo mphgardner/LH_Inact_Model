@@ -1,9 +1,9 @@
-function R = sim_TDRL_LH_final(sim)
+function R = sim_TDRL_LH(sim)
 
 % This script simulates the experimental paradigms included in the paper by
 %Sharpe et al. entitled:
 
-% What’s past is prologue: prior experience shapes the neural
+% Whatâ€™s past is prologue: prior experience shapes the neural
 % circuits recruited for future learning.
 
     %
@@ -35,7 +35,7 @@ function R = sim_TDRL_LH_final(sim)
     %                        eligibility traces  
     %
     % OUTPUTS:
-    %   R
+    %   R - structure with fields of each defined stimulus containing an array of runs x trials
     %
     %Matt Gardner April 2020
     

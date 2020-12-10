@@ -3,11 +3,10 @@ function R = sim_TDRL_LH(sim)
 % This script simulates the experimental paradigms included in the paper by
 %Sharpe et al. entitled:
 
-% What’s past is prologue: prior experience shapes the neural
-% circuits recruited for future learning.
+% Past experience shapes the neural circuits recruited for future learning.
 
     %
-    % USAGE: results = sim_TDRL(sim)
+    % USAGE: results = sim_TDRL_LH(sim)
     %
     % INPUTS:
     %   sim - string specifying simulation:
@@ -28,8 +27,8 @@ function R = sim_TDRL_LH(sim)
     %                   
     %     '4C' -             Figure 4C: fear conditioning as in Figure 4A.
     %                        Contexts between appetitive and fear conditioning
-    %                        are switched so neither the low alpha
-    %                        or increase in appetitive value due to prior
+    %                        are changed, so neither the low alpha
+    %                        nor increase in appetitive value due to prior
     %                        conditioning applies. Opto manipulation
     %                        results in modulation of the updates to the
     %                        eligibility traces  
